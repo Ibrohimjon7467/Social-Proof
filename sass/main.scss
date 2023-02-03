@@ -1,0 +1,128 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+.d-flex{
+    display: flex;
+}
+.fdc{
+    flex-direction: column;
+}
+.aic{
+    align-items: center;
+}
+.aif{
+    align-items: flex-start;
+}
+.jcc{
+    justify-content: center;
+}
+.jcb{
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    margin-bottom: 50px;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top .container{
+    gap: 125px;
+}
+.top_title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+    color: #512051;
+}
+.top_right--content{
+    gap: 32.25px;
+    margin-bottom: 15px;
+    background: #F7F2F7;
+    border-radius: 8px;
+    padding: 20px 50px 20px 32px;
+}
+.top_right--content:nth-child(2){
+    margin-left: 48px;
+}
+.top_right--content:last-child{
+    margin-left: 95px;
+}
+.top_text{
+    width: 100%;
+    max-width: 445px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.633333px;
+    color: #927B91;
+}
+.top-text{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #512051;
+}
+.box{
+    width: 100%;
+    max-width: 360px;
+    height: 255px;
+    padding: 40px 32px 35px 32px;
+    border-radius: 8px;
+    background: #512051;
+}
+.bot_top{
+    gap: 22px;
+    margin-bottom: 30px;
+}
+.person_name{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+}
+.person_job{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #EE69A4;
+}
+.bot_bottom{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.30px;
+    color: #FFFFFF;
+}
+.box:nth-child(2){
+    margin-top: 17px;
+}
+.box:nth-child(3){
+    margin-top: 33px;
+}
